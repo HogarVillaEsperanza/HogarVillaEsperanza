@@ -1,0 +1,391 @@
+*{margin:0;padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;}
+	
+	header{
+		width: 100%;
+		overflow:hidden;
+		background: #0baca6;
+
+
+	}
+	body{
+
+		background:url(../Img/Prueba-gigapixel2.jpg);
+		background-repeat: no-repeat;	
+		background-position: 50%;
+		background-attachment: fixed;
+
+		
+		flex-wrap: wrap;
+	}
+	.wrapper{
+		width: 90%;
+		max-width: 1000px;
+		margin:auto;
+		overflow: hidden;
+		padding: 20px;
+
+	}
+
+	.ir-arriba{
+		display: none;
+		padding: 20px;
+		background:#252932;
+		font-size:20px;
+		color: #fff;
+		cursor: pointer;
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index:2400;
+	}
+	.ir{cursor: pointer;
+		display: inline-block;}
+		.slider{
+			width: 90%;	
+			max-width: 1000px;
+			margin: 20px auto;
+			-webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.24);
+			-moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.24);
+			box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.24);
+
+		}
+
+
+		.wrapper h1{font-size: 25px;}
+
+		header .logo{
+			color:#000000;
+			font-size:50px;
+			line-height: 70px;
+			float: left;
+			z-index: 2100;
+			-webkit-transition:all 500ms ease;
+			transition:all 500ms ease;
+			-o- transition: all 500ms ease;
+
+		}
+		header nav{
+
+			float:right;
+			line-height:60px;
+			z-index: 2100;
+			transform: translateY(-10%);
+			-webkit-transition:all 500ms ease;
+			transition:all 500ms ease;
+			-o- transition: all 500ms ease;
+
+		}
+		header nav a{
+			display: inline-block;
+			color:#000000;
+			text-decoration: none;
+			padding:10px 10px;
+			line-height: normal;
+			font-weight: bold;
+			font-size: 30px;
+			transform: translateY(32%);
+			-webkit-transition:all 500ms ease;
+			transition:all 500ms ease;
+			-o- transition: all 500ms ease;
+
+		}
+		header nav a:hover{
+			background:#f56f3a;
+			border-radius: 50px;
+		}
+
+		.submenu{
+			font-size: 15px;
+			overflow: hidden;
+			margin-left: 35px;
+			margin-right: auto;
+			background: #fff;
+			justify-content: center;
+			padding: 19px;
+			width: 90%;
+			max-width: 900px;
+
+
+			font-size: 25px;
+			position: absolute;
+			-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+			-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+			box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+			display: flex;
+		}
+		.submenu1{
+			font-size: 15px;
+			overflow: hidden;
+			margin-left: 35px;
+			margin-right: auto;
+			background: #fff;
+			justify-content: center;
+			padding: 19px;
+			width: 90%;
+			max-width: 900px;
+
+			text-align:center;
+			font-size: 25px;
+			position: absolute;
+			-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+			-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+			box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+			display: flex;
+			
+			
+		}
+
+			.submenu-items{
+				margin: -5px 40px;
+				transition-property: all; 
+				border-radius: 5px;
+				-webkit-transition:all 500ms ;
+
+			}
+			.submenu-items:hover{
+				background:#CCFBFA;
+				padding: 15px 20px;
+				-webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.24);
+
+
+			}
+
+			.submenu .submenu-items p:hover{
+				font-weight: 600;
+				width: px;
+					-webkit-transition:all 500ms ;
+				display: block;
+				padding-bottom: 5px;
+			
+
+			border-radius: 20px;
+			background:#f56f3a;
+				margin-bottom: 10px;
+			}
+
+			.submenu .submenu-items a{
+				color: #474747;
+				text-decoration: none;
+				margin: 12px 0;
+				display: block;
+				text-align:center
+			}
+		.header2{
+
+			position: fixed;
+			height: 100px;
+			z-index: 2100;
+
+
+		}
+		.header2 .logo{
+			-webkit-transition:all 500ms ease;
+			transition:all 500ms ease;
+			-o- transition: all 500ms ease;
+			line-height: 100px;
+			font-size: 50px;
+			z-index: 2100;
+			transform: translateY(5%);
+		}
+		.header2 nav{
+			line-height: 100px;
+			z-index: 2100;
+			-webkit-transition:all 500ms ease;
+			transition:all 500ms ease;
+			-o- transition: all 500ms ease;}
+
+
+			header .slogan{transform: translateY(-30%);
+				font-size:25px;
+			}
+			.social{
+				position: fixed;
+				left: 0;
+				top: 200px;
+				z-index: 2200;
+				font-size: 18px;
+			}
+			.social ul{list-style: none;}
+
+			.social ul li a{
+				display:inline-block;
+				color:#fff;
+				background: #000;
+				padding: 10px 15px;
+				text-decoration:none;
+				speak: none;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				line-height: 1;
+				font-weight: normal;
+				font-style: normal;
+				-webkit-transition:all 500ms ease;
+				transition:all 500ms ease;
+				-o- transition: all 500ms ease;
+			} 
+			.social ul li .icon-whatsapp{background:#25d366;}
+			.social ul li .icon-instagram{background:#e4405f;}
+			.social ul li .icon-envelope1{background:#666666;}
+			.social ul li .icon-location{background:#252932;}
+			.social ul li .icon-facebook{background:#3b5998;}
+
+			.social ul li a:hover{padding:10px 25px;
+				background:#000;  }
+
+
+				.imágenes{width: 100%;}
+
+				.imágenes img{width: 140%;}
+
+				.slidesjs-pagination{background:#252932;
+					list-style: none;
+					overflow: hidden; }
+
+					.slidesjs-pagination li{float: left;} 
+					.slidesjs-pagination li a{display: block;
+						padding: 10px 25px;
+						text-decoration: none;
+						color: #ffffff;
+					}
+					.slidesjs-pagination li a:hover{background: #f56f3a}
+
+					.imágenes .active{background: #000}
+
+					.slidesjs-navigation{background:#000;
+						color: #fff;
+						text-decoration:none;
+						display: inline-block;
+						padding: 11px 25px;
+						float:right;}
+
+						.mapa{text-align:center;}
+						.donde {
+							width: 90%;
+							max-width: 1000px;
+							margin:auto;
+
+							padding: 20px;
+							background: #1d2b38;
+							margin-bottom:20px;
+							border-radius: 15px;
+
+							color:#f2f2f2;
+							padding: 20px;	
+
+						}
+						.donde p{
+							font-size: 20px;
+							padding: 5px;	
+						}
+						@media screen and (max-width:1062px) {
+							.donde p{
+								font-size: 12px;
+								padding: 5px;	
+							}
+							.submenu-items{
+								margin: -5px 40px;
+								transition-property: all; 
+								border-radius: 5px;
+								-webkit-transition:all 500ms ;
+
+							}
+							.submenu-items:hover{
+								background:#CCFBFA;
+								padding: 15px 20px;
+								-webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.24);
+							}
+
+							.submenu1{
+								font-size: 15px;
+								overflow: hidden;
+								margin-left: -20px;
+								margin-right: auto;
+								background: #fff;
+								justify-content: center;
+								padding: 19px;
+								width: 90%;
+								max-width: 900px;
+
+								text-align:center;
+								font-size: 25px;
+								position: absolute;
+								-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+								-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+								box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+								display: flex;
+
+
+							}
+							header .logo,
+							header nav {
+								width: 100%;
+								text-align:center;
+								line-height:100px;
+							}
+							.wraper .submenu{
+								padding-bottom:25px; 
+
+							}
+
+
+							.header2{height: auto;}
+							.submenu{width: 90%;
+								text-align:center;
+								overflow: hidden;
+								margin-left: -20px;
+								margin-right: auto;
+								justify-content: center;			
+								max-width: 900px;
+							}
+							.header2 .logo,
+							.header2 nav{line-height: 50px;}
+							
+							.piepagina h4{font-style: italic;
+								text-align:center;
+								font-size:11px;
+
+							}
+							.wrapper a{text-decoration: none;
+								color:#000000;
+								-webkit-transition:all 500ms ease;
+								transition:all 500ms ease;
+								-o- transition: all 500ms ease;
+							}
+							.wrapper a:hover {
+								background:#f56f3a;
+								border-radius: 50px;
+							}
+
+							.mapa{text-align:center;}
+						}
+
+						.piepagina{
+							width: 100%;
+							overflow:hidden;
+							background: #0baca6;
+							margin-top:20px; 
+							clear: both;
+							border-radius: 15px;	
+							font-size:11px;
+
+						}
+
+						.piepagina h4{font-style: italic;
+							text-align:center;
+							font-size:14px;
+
+						}
+						.piepagina wrapper{color:#0000;}
+
+
+				/*.donde{width: 100%;
+					overflow:hidden;
+					
+	}
+					
+*/
